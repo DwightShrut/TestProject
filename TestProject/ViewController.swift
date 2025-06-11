@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = .systemYellow
     }
+    
+    func setupHierarchy() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 
 }
 
