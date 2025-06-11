@@ -13,7 +13,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    func setupView() {
+        let view = UIView()
+        view.backgroundColor = .systemYellow
+    }
+    
+    func setupHierarchy() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 
 }
 
